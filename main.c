@@ -1,4 +1,4 @@
-#include "utils.cuh"
+#include "utils.h"
 
 #define DATA_NROWS 34
 #define DATA_NCOLS 7
