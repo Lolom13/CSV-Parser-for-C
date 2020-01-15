@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int readCSV(int Nrow, int Ncol, char *sep, char *filename, double **data, char **fields_names);
+int readCSV(char *sep, char *filename, double **data, char **fields_names);
 
-int readCSV(int Nrow, int Ncol, char *sep, char *filename, double **data, char **fields_names)
+int readCSV(char *sep, char *filename, double **data, char **fields_names)
 {
 	FILE *file;
 	file = fopen(filename, "r");
